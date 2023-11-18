@@ -4,4 +4,47 @@
     background-image: url('../../../assets/nurse.jpg') ;
     background-position: center;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header{
+    margin: 50px;
+}
+
+.medical{
+    background-color: rgb(19, 19, 104);
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.healthcare{
+    border: 1px solid #333;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.doctor{
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.login{
+    background-color: rgb(19, 19, 104);
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
 }
